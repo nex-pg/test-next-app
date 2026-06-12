@@ -197,7 +197,7 @@ const TaskModal = ({
                       mode="single"
                       selected={dueDate}
                       onSelect={setDueDate}
-                      initialFocus
+                      autoFocus
                     />
                   </PopoverContent>
                 </Popover>
